@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f3f3;
+}
+
+.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h2, h3, h5 {
+  color: #232f3e; /* Amazon deep navy */
+}
+
+button {
+  background-color: #ffa41c; /* Amazon orange */
+  color: #111;
+  border: none;
+  padding: 10px 25px;
+  margin: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+form {
+  background: #ffffff;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin: 0 5px;
+}
+
+.tagline {
+  color: #ffa41c;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 15px;
+  animation: pop 1s ease-out infinite alternate;
+}
+
+@keyframes pop {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #232f3e;
+  color: white;
+}
+
+img {
+  border-radius: 5px;
+}
+
+form {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 8px;
+  width: 60px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button:nth-child(2) {
+  margin-left: 5px;
+}
+
+table td:last-child button {
+  margin: 0 3px;
+}
